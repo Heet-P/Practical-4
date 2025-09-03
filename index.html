@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical-4 | WDF PRACTICALS </title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head> 
+<body>
+    <div class = "FAQ">
+        <h1>Frequently Asked Questions</h1>
+        <div class="faq-card">
+            <h2>1. What is the purpose of this practical?</h2>
+            <p>This practical aims to enhance your understanding of web development concepts by implementing a simple FAQ page.</p>
+        </div>
+        <div class="faq-card">
+            <h2>2. How do I navigate through the FAQs?</h2>
+            <p>You can scroll through the page to read the questions and answers. Each question is followed by its corresponding answer.</p>
+        </div>
+        <div class="faq-card">
+            <h2>3. Can I add more questions?</h2>
+            <p>Yes, you can add more questions by editing the HTML code of this page. Just follow the existing format.</p>
+        </div>
+        <div class="faq-card">
+            <h2>4. Is there a specific format for the questions and answers?</h2>
+            <p>Yes, each question should be in an <code>&lt;h2&gt;</code> tag, and the answer should be in a <code>&lt;p&gt;</code> tag. This helps maintain consistency and readability.</p>
+        </div>
+        <div class="faq-card">
+            <h2>5. How can I style this page?</h2>
+            <p>You can style this page using CSS. You can link an external stylesheet or use inline styles to change the appearance of the text, headings, and layout.</p>
+        </div>
+        <div class="faq-card">
+            <h2>6. What technologies are used in this practical?</h2>
+            <p>This practical uses HTML for structure. You can also incorporate CSS for styling and JavaScript for interactivity if needed.</p>
+        </div>
+        <div class="faq-card">
+            <h2>7. How can I test the functionality of this page?</h2>
+            <p>You can open this HTML file in a web browser to view the page. Ensure that your browser supports HTML5 for the best experience.</p>
+        </div>
+        <div class="faq-card">
+            <h2>8. Are there any rerequisites for understanding this practical?</h2>
+            <p>Basic knowledge of HTML is recommended. Familiarity with CSS and JavaScript can also be beneficial for enhancing the page further.</p>
+        </div>
+        <div class="faq-card">
+            <h2>9. Can I use this practical as a template for my own projects?</h2>
+            <p>Yes, you can use this practical as a template. Feel free to modify the content and style to suit your project needs.</p>
+        </div>
+        <div class="faq-card">
+            <h2>10. Where can I find more resources on web development?</h2>
+            <p>There are many online resources available, including tutorials, documentation, and forums. Websites like W3Schools, MDN Web Docs, and freeCodeCamp are great places to start.</p>
+        </div>
+    </div>
+    <button id="popupBtn">Show Portal Popup</button>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span id="popupClose" class="close">&times;</span>
+            <h2>Portal Popup</h2>
+            <p>This is a popup Peekabooo hehehehehehe</p>
+        </div>
+    </div>
+
+    <div class="slider-card">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                            <img src="img1.jpg" style="width:50%">
+                    <div class="text" style="color: black;">Heet</div>
+            </div>
+            <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                            <img src="img2.webp" style="width:50%">
+                    <div class="text" style="color: black;">Akshat</div>
+            </div>
+            <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                            <img src="img3.webp" style="width:50%">
+                    <div class="text" style="color: black;">Bhavya</div>
+            </div>
+            <!-- Next and previous buttons -->
+            <a class="prev">&#10094;</a>
+            <a class="next">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+        </div>
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+</body>
+</html>
